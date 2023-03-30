@@ -1,0 +1,15 @@
+D:\Sarachuk c# app\bin\Debug\net6.0\Sarachuk c# app.exe
+D:\Sarachuk c# app\bin\Debug\net6.0\Sarachuk c# app.deps.json
+D:\Sarachuk c# app\bin\Debug\net6.0\Sarachuk c# app.runtimeconfig.json
+D:\Sarachuk c# app\bin\Debug\net6.0\Sarachuk c# app.dll
+D:\Sarachuk c# app\bin\Debug\net6.0\Sarachuk c# app.pdb
+D:\Sarachuk c# app\obj\Debug\net6.0\Sarachuk c# app.csproj.AssemblyReference.cache
+D:\Sarachuk c# app\obj\Debug\net6.0\Sarachuk c# app.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sarachuk c# app\obj\Debug\net6.0\Sarachuk c# app.AssemblyInfoInputs.cache
+D:\Sarachuk c# app\obj\Debug\net6.0\Sarachuk c# app.AssemblyInfo.cs
+D:\Sarachuk c# app\obj\Debug\net6.0\Sarachuk c# app.csproj.CoreCompileInputs.cache
+D:\Sarachuk c# app\obj\Debug\net6.0\Sarachuk c# app.dll
+D:\Sarachuk c# app\obj\Debug\net6.0\refint\Sarachuk c# app.dll
+D:\Sarachuk c# app\obj\Debug\net6.0\Sarachuk c# app.pdb
+D:\Sarachuk c# app\obj\Debug\net6.0\Sarachuk c# app.genruntimeconfig.cache
+D:\Sarachuk c# app\obj\Debug\net6.0\ref\Sarachuk c# app.dll
