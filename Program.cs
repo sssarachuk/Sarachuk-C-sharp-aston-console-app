@@ -6,8 +6,10 @@ namespace Sarachuk
     {       
         static void Main(string[] args)
         {
-            int num = 0, t1 = 0;
+            int num = 0;
+            float t1 = 0;
             string s1 = string.Empty;
+            //Меню
             Console.WriteLine("   Задания:");
             Console.WriteLine("1) если введенное число больше 7, то вывести Привет");
             Console.WriteLine("2) если введенное имя совпадает с Вячеслав, то вывести Привет, Вячеслав, если нет, то вывести Нет такого имени");
@@ -30,7 +32,7 @@ namespace Sarachuk
                 Console.Write("Введите число больше 7: ");
                 try
                 {
-                    t1 = int.Parse(Console.ReadLine());
+                    t1 = float.Parse(Console.ReadLine());
                 }
                 catch (Exception ex)
                 {
@@ -43,7 +45,7 @@ namespace Sarachuk
                 }
                 else
                 {
-                    Console.WriteLine($"\nВаше число: {t1}\n");
+                    Console.WriteLine($"\nДля вас приветствие не выводится\n");
                 }
                 Console.ReadKey();
             }
@@ -76,40 +78,45 @@ namespace Sarachuk
                 catch (Exception ex)
                 {
                     Console.WriteLine($"\nException: {ex.Message}");
-                    Console.WriteLine("Количество элементов массива: 0\n");
+                    Console.WriteLine("Введена неправильная длина массива\n");
                     n3 = 0;
-                }                
-                int[] a3 = new int[n3];
-                if (n3 > 0) Console.WriteLine("Введите элементы массива:");
-                for (int i = 0; i < n3; i++)
+                }                                
+                if (n3 > 0)
                 {
-                    try
+                    int[] a3 = new int[n3];
+                    Console.WriteLine("Введите элементы массива:");
+                    for (int i = 0; i < n3; i++)
                     {
-                        a3[i] = int.Parse(Console.ReadLine());
+                        try
+                        {
+                            a3[i] = int.Parse(Console.ReadLine());
+                        }
+                        catch (Exception ex)
+                        {
+                            Console.WriteLine($"Exception: {ex.Message}");
+                            Console.WriteLine("Элементу массива присвоено значение 0.");
+                            a3[i] = 0;
+                        }
                     }
-                    catch (Exception ex)
+                    Console.Write("Элементы массива, кратные 3: ");
+                    int sd3 = 0;
+                    foreach (int s in a3)
                     {
-                        Console.WriteLine($"Exception: {ex.Message}");
-                        Console.WriteLine("Элементу массива присвоено значение 0.");
-                        a3[i] = 0;
+                        if (s%3 == 0) {
+                            Console.Write(s+ " ");
+                            sd3++;
+                        }
                     }
+                    if (sd3 == 0) Console.Write("не найдены");  
+                    Console.WriteLine("\n");                  
                 }
-                if (n3 > 0) Console.Write("Элементы массива, кратные 3: ");
-                int sd3 = 0;
-                foreach (int s in a3)
-                {
-                    if (s%3 == 0) {
-                        Console.Write(s+ " ");
-                        sd3++;
-                    }
-                }
-                if (sd3 == 0) Console.WriteLine("не найдены");
+                else Console.WriteLine("Введена неправильная длина массива\n");                
                 Console.ReadKey();
             }
             
             //Задание не найдено
             else {
-                Console.WriteLine($"\n   Задание не найдено. Введите доступный номер из списка заданий.");
+                Console.WriteLine($"\n   Задание не найдено. Возврат в главное меню.");
             }            
             
             //Console.ReadKey();

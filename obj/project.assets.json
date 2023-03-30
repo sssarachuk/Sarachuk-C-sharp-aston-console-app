@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sarachuk c# app\\Sarachuk c# app.csproj",
+      "projectUniqueName": "D:\\Sarachuk c# app\\Sarachuk-C-sharp-aston-console-app\\Sarachuk c# app.csproj",
       "projectName": "Sarachuk c# app",
-      "projectPath": "D:\\Sarachuk c# app\\Sarachuk c# app.csproj",
+      "projectPath": "D:\\Sarachuk c# app\\Sarachuk-C-sharp-aston-console-app\\Sarachuk c# app.csproj",
       "packagesPath": "C:\\Users\\sssar\\.nuget\\packages\\",
-      "outputPath": "D:\\Sarachuk c# app\\obj\\",
+      "outputPath": "D:\\Sarachuk c# app\\Sarachuk-C-sharp-aston-console-app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sssar\\AppData\\Roaming\\NuGet\\NuGet.Config"
